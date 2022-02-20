@@ -1,0 +1,24 @@
+>--+ program
+|  >--+ declaration-list
+|  |  >--+ declaration
+|  |  |  >--+ fun-declaration
+|  |  |  |  >--+ type-specifier
+|  |  |  |  |  >--* float
+|  |  |  |  >--* func
+|  |  |  |  >--* (
+|  |  |  |  >--+ params
+|  |  |  |  |  >--+ param-list
+|  |  |  |  |  |  >--+ param
+|  |  |  |  |  |  |  >--+ type-specifier
+|  |  |  |  |  |  |  |  >--* float
+|  |  |  |  |  |  |  >--* array
+|  |  |  |  |  |  |  >--* [
+|  |  |  |  |  |  |  >--* ]
+|  |  |  |  >--* )
+|  |  |  |  >--+ compound-stmt
+|  |  |  |  |  >--* {
+|  |  |  |  |  >--+ local-declarations
+|  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  >--* }

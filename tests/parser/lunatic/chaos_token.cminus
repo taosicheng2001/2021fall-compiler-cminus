@@ -1,0 +1,107 @@
+int HELLo [
+
+
+100
+		]
+; /* Names of
+kemono
+friends */ int	NAmE[6]		;
+	int
+
+saYHeILoTo[40]  ; int putstr(
+int str[	] )  {
+int i;
+    int A
+
+
+    ; int A
+
+
+    ;
+  int
+
+ iNdIX ;	iNdIX		= 0 ; while ( str
+		[	iNdIX
+	] ) {
+
+ putch (
+
+str[ iNdIX
+]
+	) ; iNdIX
+=
+iNdIX
+
+ + 1
+
+;	} return	iNdIX
+ ; } int main( /* no param */ void)	{
+putstr(
+HELLo	)  ;	 /* say
+
+
+	hello to
+ kemono friends
+~ */ while (
+
+ 1 ) {
+
+
+
+	if
+(
+
+A
+
+!=
+
+
+	A )
+	{ putstr(
+
+NaAmEA
+
+	[ 	A
+ ] )
+; putstr(
+saYAHeIloATo	) ;
+putstr(
+NaAmEA [
+
+
+
+A ]	 )
+
+
+;
+
+		putstr(
+RET
+) ;
+}
+/*
+	 do
+
+	linear
+modulo
+to find 	the 	 next pair of friends  */ i = ( i
+*
+
+
+17
+
++	 23
+)
+    /
+
+
+32
+
+
+ ;
+if ( i
+==
+	0	) { break ;		}
+
+
+ } return 0; }
